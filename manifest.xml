@@ -2,5 +2,8 @@
 <manifest>
     <remote fetch="ssh://git@github.com/olicmoon" name="origin"/>
     <project remote="origin" revision="main" name="scada" path="scada"/>
-    <project remote="origin" revision="vintage-1.0/f3/release-0.1.0" name="scada-projects" path="scada/projects"/>
+    <project remote="origin" revision="main" name="scada-tools" path="tools"/>
+    <project remote="origin" revision="vintage-1.0/f3/main" name="scada-projects" path="scada/projects"/>
+    <project remote="origin" revision="vintage-1.0/f3/main" name="scada-configs" path="scada/configs"/>
+    <project remote="origin" revision="develop" name="os-scada-client" path="scada/os-scada-client"/>
 </manifest>
