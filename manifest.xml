@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest>
+    <remote fetch="ssh://git@github.com/olicmoon" name="origin"/>
+    <project remote="origin" revision="main" name="scada" path="scada"/>
+    <project remote="origin" revision="vintage-1.0/f3/release-0.1.0" name="scada-projects" path="scada/projects"/>
+</manifest>
